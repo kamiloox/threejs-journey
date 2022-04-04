@@ -1,7 +1,7 @@
-import { TransformObjects } from '../lessons/05-transform-object/TransformObjects';
+import { Animations } from '../lessons/06-animations/Animations';
 
 const Home = () => {
-  return <TransformObjects />;
+  return <Animations />;
 };
 
 export default Home;
