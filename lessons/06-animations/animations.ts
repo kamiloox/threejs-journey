@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 
-export const animationsRender = (canvas: HTMLCanvasElement) => {
+export const animations = (canvas: HTMLCanvasElement) => {
   const scene = new THREE.Scene();
 
   const camera = new THREE.PerspectiveCamera(75, 800 / 600);

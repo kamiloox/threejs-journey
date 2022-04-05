@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 
-export const transformObjectsRender = (canvas: HTMLCanvasElement) => {
+export const transformObjects = (canvas: HTMLCanvasElement) => {
   const sizes = {
     width: 800,
     height: 600,
