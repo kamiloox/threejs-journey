@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { GetStaticPaths, GetStaticProps } from 'next';
 import { lessons } from '../../lessons';
 import { useEffect, useRef } from 'react';
@@ -15,14 +14,7 @@ const Lesson = ({ slug }: { slug: string }) => {
     threeJSExample(canvasRef.current);
   }, [threeJSExample]);
 
-  return (
-    <div>
-      <Link href={'/'}>
-        <a>go home</a>
-      </Link>
-      <canvas ref={canvasRef} />
-    </div>
-  );
+  return <canvas ref={canvasRef} />;
 };
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
