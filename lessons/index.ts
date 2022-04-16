@@ -4,6 +4,7 @@ import { cameras } from './07-cameras/cameras';
 import { fullscreen } from './08-fullscreen/fullscreen';
 import { geometries } from './09-geometries/geometries';
 import { debugUI } from './10-debug-ui/debugUI';
+import { textures } from './11-textures/textures';
 
 export const lessons: Record<string, (canvas: HTMLCanvasElement) => void> = {
   'transform-objects-05': transformObjects,
@@ -11,5 +12,6 @@ export const lessons: Record<string, (canvas: HTMLCanvasElement) => void> = {
   'cameras-07': cameras,
   'fullscreen-08': fullscreen,
   'geometries-09': geometries,
-  'debug-ui-09': debugUI,
+  'debug-ui-10': debugUI,
+  'textures-11': textures,
 } as const;
