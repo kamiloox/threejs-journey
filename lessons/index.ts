@@ -8,6 +8,7 @@ import { textures } from './11-textures/textures';
 import { materials } from './12-materials/materials';
 import { text3d } from './13-text-3d/text3d';
 import { lights } from './15-lights/lights';
+import { shadows } from './16-shadows/shadows';
 
 export const lessons: Record<string, (canvas: HTMLCanvasElement) => void> = {
   'transform-objects-05': transformObjects,
@@ -20,4 +21,5 @@ export const lessons: Record<string, (canvas: HTMLCanvasElement) => void> = {
   'materials-12': materials,
   'text-3d-13': text3d,
   'lights-15': lights,
+  'shadows-16': shadows,
 } as const;
